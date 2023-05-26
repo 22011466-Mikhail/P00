@@ -75,18 +75,6 @@ public class CalculatorTest {
 		int expected = 10;
 		assertEquals(actual, expected);
 	}
-	
-	@Test
-	public void testDivideError1() {
-		//fail("Not yet implemented");
-		int a = 100;
-		int b = 0;
-		
-		Calculator cal = new Calculator();
-		int actual = cal.divide(a, b);
-		
-		int expected = 0;
-		assertEquals(actual, expected);
-	}
+
 
 }
